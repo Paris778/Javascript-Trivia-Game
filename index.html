@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Trivia Game</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--Linking the CSS-->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+</head>
+
+<body>
+
+    <!-- Loader Page -->
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+    <script>
+        setTimeout(function() {
+            $('.loader-wrapper').fadeOut()
+        }, 2000);
+    </script>
+
+
+    <h1>Let's Play !!!</h1>
+    <h5>Click on a card to reveal a question !</h5>
+    <h2></h2>
+    <div id="game">
+        <!-- All our game is going in here -->
+    </div>
+
+    <!--Header 2 for score. Span used in order to take all space between header 2-->
+    <h2>Score:<span id="score">0</span></h2>
+
+    <!--Linking the Javascript-->
+    <script src="scripts.js"></script>
+
+
+
+</body>
+
+</html>
