@@ -11,3 +11,8 @@ Questions are loaded through an external API provided through Opentdb.com
 
 ## Screenshots
 
+
+![Alt text](https://github.com/Paris778/Javascript-Trivia-Game/blob/main/ScreenShots/JS%20Trivia.JPG "Title")
+
+![Alt text](https://github.com/Paris778/Javascript-Trivia-Game/blob/main/ScreenShots/trivia%202.JPG "Title")
+
